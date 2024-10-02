@@ -1,4 +1,4 @@
-site_name: Chay Docu
+site_name: Chay Docs
 nav:
   - Home: index.md
   - About: about.md
