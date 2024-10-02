@@ -1,6 +1,6 @@
 site_name: Chay Docs
 nav:
-  - Home: index.md
-  - About: about.md
+  - À propos: about.md
+  - Prairie: index.md
 theme:
     name: dracula
