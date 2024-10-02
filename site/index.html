@@ -151,7 +151,21 @@
                 <section class="p-md-5 section-content">
     <article>
         <p><h1 id="mon-site-de-documentation">Mon Site de Documentation</h1>
-<h2 id="comment-creer-un-site-de-documentation-avec-github-pages-exo-2">Comment créer un site de documentation avec Github Pages ?(Exo 2)</h2>
+<h2 id="comment-creer-un-site-de-documentation-avec-mkdocs">Comment créer un site de documentation avec Mkdocs ?</h2>
+<ol>
+<li>télécharger Mkdocs avec la commande <code>pip install mkdocs</code></li>
+<li>J'avais pas pip donc je l'ai telechargé avec  <code>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</code> et installé via <code>python3 get-pip.py</code></li>
+<li>Après avoir installé Mkdocs ,j'ai suivi à la lettre la documentation de mkdocs accessible ici : <a href="https://www.mkdocs.org/getting-started/">Mkdocs - Getting started</a></li>
+<li>Je me suis amusée à changer le thème en choisissant le thème <code>Dracula</code> : <a href="https://draculatheme.com/mkdocs">Documentatin ici</a></li>
+</ol>
+<h2 id="comment-deployer-un-site-de-documentation-mkdocs-avec-github">Comment déployer un site de documentation Mkdocs avec Github ?</h2>
+<ol>
+<li>Pousser le repo en local vers le repo distant Github</li>
+<li>Se mettre sur la branche Main du repo </li>
+<li>déployer avec la commande <code>mkdocs gh-deploy</code></li>
+</ol>
+<hr />
+<h2 id="comment-creer-un-site-de-documentation-avec-github-pages">Comment créer un site de documentation avec Github Pages ?</h2>
 <ol>
 <li>Créer repo sur github et le cloner  sur mon bureau ( dans mon cas je l’ai appelé mon_site_de_docu)</li>
 <li>Y accéder via ma ligne de commande ( terminal) : cd nom de votre repo (dans mon cas c'éatit cd mon_site_de_docu)</li>
@@ -168,20 +182,13 @@
 <li>Sur votre profil Github, dans votre repo de doc : Aller dans <code>settings &gt; Pages</code></li>
 <li>Déployer le site</li>
 </ol>
-<h2 id="comment-mettre-a-jour-la-documentation-exo-2">Comment mettre à jour la documentation ?(Exo 2)</h2>
+<h2 id="comment-mettre-a-jour-la-documentation">Comment mettre à jour la documentation ?</h2>
 <p>Pour mettre à jour la documentation, suivez les étapes ci-dessous :</p>
 <ol>
 <li>Ouvrez le dossier <code>mon-site-de-docu</code> de votre projet.</li>
 <li>Modifiez le fichier Markdown <code>index.md</code> correspondant à la documentation.</li>
 <li>Enregistrez vos modifications:  <code>git add .</code> <code>git commit -m "votre message de commit"</code></li>
 <li>Poussez les changements vers le dépôt distant: <code>git push</code> </li>
-</ol>
-<h2 id="comment-creer-un-site-de-documentation-avec-mkdocs-exo-2">Comment créer un site de documentation avec Mkdocs ?(Exo 2)</h2>
-<ol>
-<li>télécharger Mkdocs avec la commande <code>pip install mkdocs</code></li>
-<li>J'avais pas pip donc je l'ai telechargé avec  <code>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</code> et installé via <code>python3 get-pip.py</code></li>
-<li>Après avoir installé Mkdocs ,j'ai suivi à la lettre la documentation de mkdocs accessible ici : <a href="https://www.mkdocs.org/getting-started/">Mkdocs - Getting started</a></li>
-<li>Je me suis amusée à changer le thème en choisissant le thème <code>Dracula</code> : <a href="https://draculatheme.com/mkdocs">Documentatin ici</a></li>
 </ol>
 <h2 id="le-protocole-http-exo-3">Le protocole HTTP (Exo 3)</h2>
 <p>Requête HTTP: <code>GET https://dummyjson.com:443/recipes?limit=10 HTTP/2</code></p>

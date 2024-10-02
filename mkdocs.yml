@@ -4,3 +4,6 @@ nav:
   - Prairie: index.md
 theme:
     name: dracula
+markdown_extensions:
+  - attr_list
+  - md_in_html
