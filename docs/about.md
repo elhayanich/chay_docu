@@ -2,7 +2,7 @@
 
 Bienvenue sur mon site !
 
-Ce site est dédié à la documentation que j'ai créée dans le cadre de ma formation en Développement IA et Data avec l'école Microsoft et Simplon. 
+Ce site est dédié à la documentation que je crée au fur et à mesure dans le cadre de ma formation en Développement IA et Data avec l'école Microsoft et Simplon. 
 
 ## Qui suis-je ?
 

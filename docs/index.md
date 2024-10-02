@@ -27,6 +27,13 @@ Pour mettre à jour la documentation, suivez les étapes ci-dessous :
 3. Enregistrez vos modifications:  `git add .` `git commit -m "votre message de commit"`
 4. Poussez les changements vers le dépôt distant: `git push` 
 
+## Comment créer un site de documentation avec Mkdocs ?(Exo 2) 
+
+1. télécharger Mkdocs avec la commande `pip install mkdocs`
+2. J'avais pas pip donc je l'ai telechargé avec  `curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py` et installé via `python3 get-pip.py`
+3. Après avoir installé Mkdocs ,j'ai suivi à la lettre la documentation de mkdocs accessible ici : [Mkdocs - Getting started](https://www.mkdocs.org/getting-started/)
+4. Je me suis amusée à 
+
 ## Le protocole HTTP (Exo 3) 
 
 Requête HTTP: `GET https://dummyjson.com:443/recipes?limit=10 HTTP/2`
