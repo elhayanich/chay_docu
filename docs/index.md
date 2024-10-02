@@ -12,6 +12,8 @@
 2. Se mettre sur la branche Main du repo 
 3. déployer avec la commande `mkdocs gh-deploy`
 
+### [Repository du site mkdocs](https://github.com/elhayanich/chay_docu)
+
 ---------------------------------------------------------------
 
 
@@ -41,6 +43,8 @@ Pour mettre à jour la documentation, suivez les étapes ci-dessous :
 2. Modifiez le fichier Markdown `index.md` correspondant à la documentation.
 3. Enregistrez vos modifications:  `git add .` `git commit -m "votre message de commit"`
 4. Poussez les changements vers le dépôt distant: `git push` 
+
+### [Repository du site en  markdown avec Github](https://github.com/elhayanich/mon-site-de-docu)
 
 
 ## Le protocole HTTP (Exo 3) 
