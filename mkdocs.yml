@@ -1,7 +1,16 @@
 site_name: Chay Docs
 nav:
+ nav:
   - À propos: about.md
   - Prairie: index.md
+    - Secunda: secunda.md
+    - Tertia: tertia.md
+    - Quarta: quarta.md
+    - Quinta: quinta.md
+    - Sexta: sexta.md
+    - Septima: septima.md
+    - OctavIa: octavia.md
+    - Nona: nona.md
 theme:
     name: dracula
 markdown_extensions:
