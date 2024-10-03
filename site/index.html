@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-        <title>Mon Site de Documentation - Chay Docs</title>
+        <title>Index - Chay Docs</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -86,7 +86,7 @@
         <a href="."
             class=" active 
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
-            Mon Site de Documentation
+            Index
         </a>
     </li>
                             
@@ -227,74 +227,7 @@
             <!-- block content -->
                 <section class="p-md-5 section-content">
     <article>
-        <p><h1 id="mon-site-de-documentation">Mon Site de Documentation</h1>
-<h2 id="comment-creer-un-site-de-documentation-avec-mkdocs">Comment créer un site de documentation avec Mkdocs ?</h2>
-<ol>
-<li>télécharger Mkdocs avec la commande <code>pip install mkdocs</code></li>
-<li>J'avais pas pip donc je l'ai telechargé avec  <code>curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py</code> et installé via <code>python3 get-pip.py</code></li>
-<li>Après avoir installé Mkdocs ,j'ai suivi à la lettre la documentation de mkdocs accessible ici : <a href="https://www.mkdocs.org/getting-started/">Mkdocs - Getting started</a></li>
-<li>Je me suis amusée à changer le thème en choisissant le thème <code>Dracula</code> : <a href="https://draculatheme.com/mkdocs">Documentatin ici</a></li>
-</ol>
-<h2 id="comment-deployer-un-site-de-documentation-mkdocs-avec-github">Comment déployer un site de documentation Mkdocs avec Github ?</h2>
-<ol>
-<li>Pousser le repo en local vers le repo distant Github</li>
-<li>Se mettre sur la branche Main du repo </li>
-<li>déployer avec la commande <code>mkdocs gh-deploy</code></li>
-</ol>
-<h3 id="repository-du-site-mkdocs"><a href="https://github.com/elhayanich/chay_docu">Repository du site mkdocs</a></h3>
-<hr />
-<h2 id="comment-creer-un-site-de-documentation-avec-github-pages">Comment créer un site de documentation avec Github Pages ?</h2>
-<ol>
-<li>Créer repo sur github et le cloner  sur mon bureau ( dans mon cas je l’ai appelé mon_site_de_docu)</li>
-<li>Y accéder via ma ligne de commande ( terminal) : cd nom de votre repo (dans mon cas c'éatit cd mon_site_de_docu)</li>
-<li>Créer un fichier index.md ( mon fichier de markdown) : <code>nano index.md</code></li>
-<li>mettre notre documentation en Markdown (Titres avec Hashtags, texte sans les hashtags etc )</li>
-<li>Pour enregistrer le fichier et quitter : <code>ctrl o</code> , <code>entrer</code> , <code>ctrl x</code></li>
-<li>Pour configurer le site, créer un fichier YAML avec la commande : <code>nano _config.yaml</code>
-( Lien Utile : <code>https://quire.getty.edu/docs-v1/fundamentals/</code>) </li>
-<li>Étpae 5</li>
-<li>Ensuite, suivre les étapes pour pousser notre travail vers le repo distant :<br />
-<code>git add .</code> 
-<code>git commit -m "votre message de commit"</code>
-<code>git push</code> </li>
-<li>Sur votre profil Github, dans votre repo de doc : Aller dans <code>settings &gt; Pages</code></li>
-<li>Déployer le site</li>
-</ol>
-<h2 id="comment-mettre-a-jour-la-documentation">Comment mettre à jour la documentation ?</h2>
-<p>Pour mettre à jour la documentation, suivez les étapes ci-dessous :</p>
-<ol>
-<li>Ouvrez le dossier <code>mon-site-de-docu</code> de votre projet.</li>
-<li>Modifiez le fichier Markdown <code>index.md</code> correspondant à la documentation.</li>
-<li>Enregistrez vos modifications:  <code>git add .</code> <code>git commit -m "votre message de commit"</code></li>
-<li>Poussez les changements vers le dépôt distant: <code>git push</code> </li>
-</ol>
-<h3 id="repository-du-site-en-markdown-avec-github"><a href="https://github.com/elhayanich/mon-site-de-docu">Repository du site en  markdown avec Github</a></h3>
-<h2 id="le-protocole-http-exo-3">Le protocole HTTP (Exo 3)</h2>
-<p>Requête HTTP: <code>GET https://dummyjson.com:443/recipes?limit=10 HTTP/2</code></p>
-<h6 id="q-cest-quoi-une-requete-http">• Q : C’est quoi une requête HTTP ?</h6>
-<p>• A : C'est une demande initiée par le client en utilisant le protocole http afin d'obtenir des informations ou une ressource ou encore effectuer une action spécifique. Elle contient la méthode <code>GET</code> <code>PUT</code> <code>POST</code> ...etc, le chemin de la ressource <code>PATH</code> et la version du protocole http</p>
-<h6 id="q-cest-quoi-un-dns">• Q : C’est quoi un DNS ?</h6>
-<p>• A : <code>Domain name system</code>, il traduit les noms de domaines en adresses IP compréhensibles par les machines. Cela permet à un utilisateur de saisir un nom de domaine convivial dans un navigateur, plutôt que d'avoir à se souvenir d'une adresse IP complexe.</p>
-<h6 id="q-cest-quoi-get">• Q : C’est quoi GET ?</h6>
-<p>• A : c'est une méthode qui nous permet de récuperer des informations d'une API. Les méthodes definissent les types d'opérations qu'un client veut effectuer </p>
-<h6 id="q-cest-quoi-https">• Q : C’est quoi https:// ?</h6>
-<p>• A : le <code>schéma</code> qui spécifie le protocole utilisé : le https veut dire qu'on veut utiliser le protocole http sécrusié et le :// est un délimitateur par convention qui sépare le protocole utilisé et la suite de l'url.</p>
-<h6 id="q-cest-quoi-dummyjsoncom">• Q : C’est quoi dummyjson.com ?</h6>
-<p>• A : c'ets un nom de domaine; dummyjson est </p>
-<h6 id="q-cest-quoi-443">• Q : C’est quoi 443 ?</h6>
-<p>• A : c'est le port de connexion </p>
-<h6 id="q-cest-quoi-recipes">• Q : C’est quoi recipes ?</h6>
-<p>• A : une endpoint</p>
-<h6 id="q-cest-quoi">• Q : C’est quoi ? ?</h6>
-<p>• A : début de params</p>
-<h6 id="q-cest-quoi-limit">• Q : C’est quoi limit ?</h6>
-<p>• A : le prametre</p>
-<h6 id="q-cest-quoi-10">• Q : C’est quoi 10 ?</h6>
-<p>• A : la valeur du paramètre</p>
-<h6 id="q-cest-quoi-http2">• Q : C’est quoi HTTP/2 ?</h6>
-<p>• A : La version du protocole HTTP</p>
-<h6 id="q-que-contient-la-reponse-a-cette-requete">• Q : Que contient la réponse à cette requête ?</h6>
-<p>• A : bad request erreur 400, si on enlève le HTTP/2, ça nous renvoie une api avec un objet qui contient lui meme un tableau avec 10 objets</p></p>
+        <p><p>La Prairie est une période de formation de 9 jours où nous avons l'occasion de travailler sur des exercices en lien avec l'ensemble du programme du cursus de développement en intelligence artificielle. </p></p>
     </article>
 </section>
             <!-- endblock -->
