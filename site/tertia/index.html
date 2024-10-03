@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-        <title>Chay Docs</title>
+        <title>Tertia - Chay Docs</title>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +12,14 @@
         
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-            <link rel="stylesheet" href="/assets/css/darcula-highlight.min.css">
+            <link rel="stylesheet" href="../assets/css/darcula-highlight.min.css">
 
-        <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
-        <link rel="stylesheet" href="/assets/css/dracula-ui.min.css">
-        <link rel="stylesheet" href="/assets/css/mkdocs.min.css">
+        <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/dracula-ui.min.css">
+        <link rel="stylesheet" href="../assets/css/mkdocs.min.css">
 
         
-            <link  rel="icon" type="image/x-icon" href="/assets/img/favicon.ico">
+            <link  rel="icon" type="image/x-icon" href="../assets/img/favicon.ico">
         
             <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.5.0/highlight.min.js"></script>
                 <script>hljs.initHighlightingOnLoad();</script>
@@ -66,15 +66,15 @@
         <ul class="mb-5 drac-list drac-list-none">
             
             <li class="drac-box">
-                <a href="/about/"
+                <a href="../about/"
                     class="
                     drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
                     À propos
                 </a>
             </li>
             <li class="drac-box">
-                <a href="/."
-                    class="
+                <a href=".."
+                    class=" active 
                     drac-anchor btn-toggle d-inline-flex align-items-center border-0 drac-text-purple--hover collapsed"
                     data-bs-toggle="collapse" data-bs-target="#prairie-collapse" aria-expanded="false">
                     Prairie
@@ -83,7 +83,7 @@
                     <ul class="mb-5 drac-list drac-list-none">
                             
     <li class="drac-box-ternary">
-        <a href="/."
+        <a href=".."
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             file
@@ -101,7 +101,7 @@
             <ul class="mb-5 drac-list drac-list-none">
                     
     <li class="drac-box-ternary">
-        <a href="/secunda/"
+        <a href="../secunda/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Secunda
@@ -109,15 +109,15 @@
     </li>
                     
     <li class="drac-box-ternary">
-        <a href="/tertia/"
-            class="
+        <a href="./"
+            class=" active 
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Tertia
         </a>
     </li>
                     
     <li class="drac-box-ternary">
-        <a href="/quarta/"
+        <a href="../quarta/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Quarta
@@ -125,7 +125,7 @@
     </li>
                     
     <li class="drac-box-ternary">
-        <a href="/quinta/"
+        <a href="../quinta/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Quinta
@@ -133,7 +133,7 @@
     </li>
                     
     <li class="drac-box-ternary">
-        <a href="/sexta.md"
+        <a href="../sexta.md"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Sexta
@@ -141,7 +141,7 @@
     </li>
                     
     <li class="drac-box-ternary">
-        <a href="/septima.md"
+        <a href="../septima.md"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Septima
@@ -149,7 +149,7 @@
     </li>
                     
     <li class="drac-box-ternary">
-        <a href="/octavia/"
+        <a href="../octavia/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Octavia
@@ -157,7 +157,7 @@
     </li>
                     
     <li class="drac-box-ternary">
-        <a href="/nona/"
+        <a href="../nona/"
             class="
             drac-anchor d-inline-flex align-items-center border-0 drac-text-purple--hover">
             Nona
@@ -194,12 +194,28 @@
                     <!-- block preview -->
                     <li class="nav-item">
                             
+        <div class="container">
+            <div class="row row-preview">
+                <div class="col">
+                    <a href="../secunda/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover">
+                        <i class="fa fa-arrow-left"></i> Previous
+                    </a>
+                </div>
+                <div class="col">
+                    <a href="../quarta/"
+                        class="btn-preview drac-btn drac-btn-outline drac-text-white drac-text-cyan-green--hover" style="padding-left: 3%;">
+                        Next <i class="fa fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
                     </li>
                     <!--  endblock -->
 
                     <!-- block search -->
                     <li class="nav-item"><div role="search" class="search-box">
-	<form id="rtd-search-form" class="wy-form" action="//search.html" method="get">
+	<form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
 		<input type="text" name="q" class="drac-input drac-input-search drac-input-white drac-text-white drac-bg-black-secondary"
 		placeholder="Search docs" title="Type search term here" />
 	</form>
@@ -222,15 +238,36 @@
             <!-- endblock -->
 
             <!-- block content -->
-    <section class="p-md-5 section-content">
-        <article>
-            <p></p>
-            <h1>404</h1>
-            <hr>
-            <p><strong>Page not found</strong></p>
-        </article>
-    </section>
-
+                <section class="p-md-5 section-content">
+    <article>
+        <p><h1 id="le-protocole-http-exo-3">Le protocole HTTP (Exo 3)</h1>
+<p>Requête HTTP: <code>GET https://dummyjson.com:443/recipes?limit=10 HTTP/2</code></p>
+<h6 id="q-cest-quoi-une-requete-http">• Q : C’est quoi une requête HTTP ?</h6>
+<p>• A : C'est une demande initiée par le client en utilisant le protocole http afin d'obtenir des informations ou une ressource ou encore effectuer une action spécifique. Elle contient la méthode <code>GET</code> <code>PUT</code> <code>POST</code> ...etc, le chemin de la ressource <code>PATH</code> et la version du protocole http</p>
+<h6 id="q-cest-quoi-un-dns">• Q : C’est quoi un DNS ?</h6>
+<p>• A : <code>Domain name system</code>, il traduit les noms de domaines en adresses IP compréhensibles par les machines. Cela permet à un utilisateur de saisir un nom de domaine convivial dans un navigateur, plutôt que d'avoir à se souvenir d'une adresse IP complexe.</p>
+<h6 id="q-cest-quoi-get">• Q : C’est quoi GET ?</h6>
+<p>• A : c'est une méthode qui nous permet de récuperer des informations d'une API. Les méthodes definissent les types d'opérations qu'un client veut effectuer </p>
+<h6 id="q-cest-quoi-https">• Q : C’est quoi https:// ?</h6>
+<p>• A : le <code>schéma</code> qui spécifie le protocole utilisé : le https veut dire qu'on veut utiliser le protocole http sécrusié et le :// est un délimitateur par convention qui sépare le protocole utilisé et la suite de l'url.</p>
+<h6 id="q-cest-quoi-dummyjsoncom">• Q : C’est quoi dummyjson.com ?</h6>
+<p>• A : c'ets un nom de domaine; dummyjson est </p>
+<h6 id="q-cest-quoi-443">• Q : C’est quoi 443 ?</h6>
+<p>• A : c'est le port de connexion </p>
+<h6 id="q-cest-quoi-recipes">• Q : C’est quoi recipes ?</h6>
+<p>• A : une endpoint</p>
+<h6 id="q-cest-quoi">• Q : C’est quoi ? ?</h6>
+<p>• A : début de params</p>
+<h6 id="q-cest-quoi-limit">• Q : C’est quoi limit ?</h6>
+<p>• A : le prametre</p>
+<h6 id="q-cest-quoi-10">• Q : C’est quoi 10 ?</h6>
+<p>• A : la valeur du paramètre</p>
+<h6 id="q-cest-quoi-http2">• Q : C’est quoi HTTP/2 ?</h6>
+<p>• A : La version du protocole HTTP</p>
+<h6 id="q-que-contient-la-reponse-a-cette-requete">• Q : Que contient la réponse à cette requête ?</h6>
+<p>• A : bad request erreur 400, si on enlève le HTTP/2, ça nous renvoie une api avec un objet qui contient lui meme un tableau avec 10 objets</p></p>
+    </article>
+</section>
             <!-- endblock -->
 
             <!-- block footer -->
@@ -247,11 +284,11 @@
 
     </main>
 
-        <script>var base_url = '/';</script>
-        <script src="/assets/js/jquery-3.3.1.slim.min.js"></script>
-        <script src="/assets/js/bootstrap.bundle.min.js"></script>
-        <script src="/assets/js/mkdocs.js"></script>
-			<script src="/search/main.js" defer></script>
+        <script>var base_url = '..';</script>
+        <script src="../assets/js/jquery-3.3.1.slim.min.js"></script>
+        <script src="../assets/js/bootstrap.bundle.min.js"></script>
+        <script src="../assets/js/mkdocs.js"></script>
+			<script src="../search/main.js" defer></script>
 
 </body>
 

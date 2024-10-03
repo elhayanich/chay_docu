@@ -1,9 +1,7 @@
 site_name: Chay Docs
 nav:
   - À propos: about.md
-  - Prairie:
-      file: index.md
-      children:
+  - Prairie: index.md
         - Secunda: secunda.md
         - Tertia: tertia.md
         - Quarta: quarta.md
