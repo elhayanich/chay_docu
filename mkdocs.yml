@@ -1,6 +1,5 @@
 site_name: Chay Docs
 nav:
- nav:
   - À propos: about.md
   - Prairie: index.md
     - Secunda: secunda.md
