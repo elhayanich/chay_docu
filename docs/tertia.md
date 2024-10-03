@@ -1,4 +1,4 @@
-# Le protocole HTTP (Exo 3) 
+# Le protocole HTTP
 
 Requête HTTP: `GET https://dummyjson.com:443/recipes?limit=10 HTTP/2`
 
