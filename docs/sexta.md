@@ -1,0 +1,1 @@
+![sexta exericse](sexta.png)

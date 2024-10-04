@@ -1,0 +1,1 @@
+![septima exericse](septima.png)
