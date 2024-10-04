@@ -11,8 +11,6 @@ nav:
       - Septima: septima.md
       - Octavia: octavia.md
       - Nona: nona.md
-theme:
-    name: dracula
 markdown_extensions:
   - attr_list
   - md_in_html
