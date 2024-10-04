@@ -1,4 +1,4 @@
-![secunda exericse](doc/secunda.png)
+![secunda exericse](secunda.png)
 
 
 # Comment créer un site de documentation avec Mkdocs ?

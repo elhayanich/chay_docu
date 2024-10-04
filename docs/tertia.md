@@ -1,3 +1,6 @@
+![tertia exericse](tertia.png)
+
+
 # Le protocole HTTP
 
 Requête HTTP: `GET https://dummyjson.com:443/recipes?limit=10 HTTP/2`
