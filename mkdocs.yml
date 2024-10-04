@@ -11,6 +11,12 @@ nav:
       - Septima: septima.md
       - Octavia: octavia.md
       - Nona: nona.md
+theme:
+  name: material  
+  palette:
+    scheme: default
+    primary: pink
+    accent: pink
 markdown_extensions:
   - attr_list
   - md_in_html

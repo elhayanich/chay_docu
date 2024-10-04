@@ -8,15 +8,12 @@
 3. Après avoir installé Mkdocs ,j'ai suivi à la lettre la documentation de mkdocs accessible ici : [Mkdocs - Getting started](https://www.mkdocs.org/getting-started/)
 4. Je me suis amusée à changer le thème en choisissant le thème `Dracula` : [Documentatin ici](https://draculatheme.com/mkdocs)
 
-## Comment déployer un site de documentation Mkdocs avec Github ?
+# Comment déployer un site de documentation Mkdocs avec Github ?
 1. Pousser le repo en local vers le repo distant Github
 2. Se mettre sur la branche Main du repo 
 3. déployer avec la commande `mkdocs gh-deploy`
 
 ### [Repository du site mkdocs](https://github.com/elhayanich/chay_docu)
-
----------------------------------------------------------------
-
 
 # Comment créer un site de documentation avec Github Pages ?
 
