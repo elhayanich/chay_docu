@@ -1,3 +1,6 @@
+![secunda exericse](doc/secunda.png)
+
+
 # Comment créer un site de documentation avec Mkdocs ?
 
 1. télécharger Mkdocs avec la commande `pip install mkdocs`
