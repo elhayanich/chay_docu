@@ -1,5 +1,4 @@
-![tertia exericse](tertia.png)
-
+![tertia exericse](tertia.png) 
 
 # Le protocole HTTP
 
