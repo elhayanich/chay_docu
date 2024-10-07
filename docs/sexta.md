@@ -10,7 +10,7 @@ C'est une application de prise de note, l'utilisateur ajoute autant de notes qu'
 ![activity diagram](activity.png)
 
 **Digramme de séquence :**
-![sequence diagram](sequence.png)
+En cours 
 
 **Diagramme de classe :**
 ![class diagram](class.png)
