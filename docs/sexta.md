@@ -1,6 +1,7 @@
 ![sexta exericse](sexta.png)
 **Les cas d'utilisation :**
-C'est une application de prise de note, l'utilisateur ajoute autant de notes qu'il veut. 
+C'est une application de prise de note, l'utilisateur ajoute autant de notes qu'il veut.
+**Explication du use case constaté:**
 ![usecase](usecase.png)
 
 **Wireframe :**
@@ -10,7 +11,7 @@ C'est une application de prise de note, l'utilisateur ajoute autant de notes qu'
 ![activity diagram](activity.png)
 
 **Digramme de séquence :**
-En cours 
+![sequence diagram](sequence.png)
 
 **Diagramme de classe :**
 ![class diagram](class.png)
