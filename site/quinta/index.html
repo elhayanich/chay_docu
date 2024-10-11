@@ -485,20 +485,26 @@
 <p>• <code>SQL</code> (Structured Query Language) est le langage standard pour interagir avec une base de données. Il est utilisé par tous les SGBD.
 • Un <code>SGBD</code> est un logiciel de gestion de base de données, qui utilise donc SQL.
 • <code>MySQL</code> est un SGBD très utilisé, appartenant à l'entreprise Oracle. </p>
-<p><strong>Création de la base de donnée :</strong>
-<img alt="quinta exericse" src="../Create_Use.png" />
- ```
- mysql&gt; CREATE DATABASE quinta;</p>
-<p>mysql&gt; USE quinta;
- ```</p>
-<p><strong>Création des tables :</strong> 
-<img alt="quinta exericse" src="../create_tables.png" /></p>
-<p><code>mysql&gt; CREATE TABLE city (
+<p><strong>Création de la base de donnée :</strong></p>
+<p><code>mysql&gt; CREATE DATABASE quinta;</code></p>
+<p><code>mysql&gt; USE quinta;</code></p>
+<p><strong>Création des tables :</strong> </p>
+<p>```mysql&gt; CREATE TABLE city (
     -&gt;     id INT AUTO_INCREMENT PRIMARY KEY,
     -&gt;     name VARCHAR(100) NOT NULL,
     -&gt;     lat FLOAT NOT NULL,
     -&gt;     lon FLOAT NOT NULL
-    -&gt; );</code></p>
+    -&gt; );</p>
+<pre><code>
+```mysql&gt; CREATE TABLE people (
+    -&gt;     id INT AUTO_INCREMENT PRIMARY KEY,
+    -&gt;     name VARCHAR(100) NOT NULL,
+    -&gt;     dob DATE NOT NULL,
+    -&gt;     height FLOAT NOT NULL,
+    -&gt;     city_id INT,
+    -&gt;     FOREIGN KEY (city_id) REFERENCES city(id)
+    -&gt; );
+</code></pre>
 <p><strong>Remplissage des tables avec des données :</strong> 
 <img alt="quinta exericse" src="../insert_people.png" />
 <img alt="quinta exericse" src="../insert_20_people.png" />

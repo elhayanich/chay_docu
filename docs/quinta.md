@@ -12,7 +12,8 @@
 
 **Création des tables :** 
 
-```mysql> CREATE TABLE city (
+```sql
+mysql> CREATE TABLE city (
     ->     id INT AUTO_INCREMENT PRIMARY KEY,
     ->     name VARCHAR(100) NOT NULL,
     ->     lat FLOAT NOT NULL,
@@ -20,7 +21,8 @@
     -> );
 ```
 
-```mysql> CREATE TABLE people (
+```sql
+mysql> CREATE TABLE people (
     ->     id INT AUTO_INCREMENT PRIMARY KEY,
     ->     name VARCHAR(100) NOT NULL,
     ->     dob DATE NOT NULL,
