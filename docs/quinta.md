@@ -1,5 +1,9 @@
 ![quinta exericse](quinta.png)
 
+• `SQL` (Structured Query Language) est le langage standard pour interagir avec une base de données. Il est utilisé par tous les SGBD.
+• Un `SGBD` est un logiciel de gestion de base de données, qui utilise donc SQL.
+• `MySQL` est un SGBD très utilisé, appartenant à l'entreprise Oracle. 
+
 **Création de la base de donnée :**
 ![quinta exericse](Create_Use.png)
 
