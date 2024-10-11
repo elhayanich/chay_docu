@@ -489,14 +489,14 @@
 <p><code>mysql&gt; CREATE DATABASE quinta;</code></p>
 <p><code>mysql&gt; USE quinta;</code></p>
 <p><strong>Création des tables :</strong> </p>
-<p>```mysql&gt; CREATE TABLE city (
+<pre><code class="language-sql">mysql&gt; CREATE TABLE city (
     -&gt;     id INT AUTO_INCREMENT PRIMARY KEY,
     -&gt;     name VARCHAR(100) NOT NULL,
     -&gt;     lat FLOAT NOT NULL,
     -&gt;     lon FLOAT NOT NULL
-    -&gt; );</p>
-<pre><code>
-```mysql&gt; CREATE TABLE people (
+    -&gt; );
+</code></pre>
+<pre><code class="language-sql">mysql&gt; CREATE TABLE people (
     -&gt;     id INT AUTO_INCREMENT PRIMARY KEY,
     -&gt;     name VARCHAR(100) NOT NULL,
     -&gt;     dob DATE NOT NULL,
