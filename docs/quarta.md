@@ -19,7 +19,7 @@
     "Sofian",
     "Avriska",
     "Ioana"
-]
+]```
 
 # Code en Python :
 
@@ -34,7 +34,7 @@ def groupes(k):
 
 # Exemple avec k = 2
 for i, Team in enumerate(groupes(2), 1):
-    print(f"Team {i}: {Team}")
+    print(f"Team {i}: {Team}")```
 
 # Code en JavaScript :
 
@@ -73,7 +73,7 @@ function groupes(k) {
 
 const k = 5; 
 const groupesResultats = groupes(k);
-console.log(groupesResultats);
+console.log(groupesResultats);```
 
 # Résultats obtenus  :
 
