@@ -6,17 +6,16 @@
 
 **Création de la base de donnée :**
 ![quinta exericse](Create_Use.png)
- ```mysql
- mysql> CREATE DATABASE quinta;
  ```
- ```mysql
+ mysql> CREATE DATABASE quinta;
+ 
  mysql> USE quinta;
  ```
 
 **Création des tables :** 
 ![quinta exericse](create_tables.png)
 
- ```mysql
+ ```
  mysql> CREATE TABLE city (
     ->     id INT AUTO_INCREMENT PRIMARY KEY,
     ->     name VARCHAR(100) NOT NULL,
