@@ -5,24 +5,30 @@
 • `MySQL` est un SGBD très utilisé, appartenant à l'entreprise Oracle. 
 
 **Création de la base de donnée :**
-![quinta exericse](Create_Use.png)
- ```
- mysql> CREATE DATABASE quinta;
- 
- mysql> USE quinta;
- ```
+
+ ```mysql> CREATE DATABASE quinta; ```
+
+  ```mysql> USE quinta; ```
 
 **Création des tables :** 
-![quinta exericse](create_tables.png)
 
- ```
- mysql> CREATE TABLE city (
+```mysql> CREATE TABLE city (
     ->     id INT AUTO_INCREMENT PRIMARY KEY,
     ->     name VARCHAR(100) NOT NULL,
     ->     lat FLOAT NOT NULL,
     ->     lon FLOAT NOT NULL
     -> );
 ```
+
+```mysql> CREATE TABLE people (
+    ->     id INT AUTO_INCREMENT PRIMARY KEY,
+    ->     name VARCHAR(100) NOT NULL,
+    ->     dob DATE NOT NULL,
+    ->     height FLOAT NOT NULL,
+    ->     city_id INT,
+    ->     FOREIGN KEY (city_id) REFERENCES city(id)
+    -> );
+``` 
 
 **Remplissage des tables avec des données :** 
 ![quinta exericse](insert_people.png)
