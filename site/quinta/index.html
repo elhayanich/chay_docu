@@ -486,9 +486,20 @@
 • Un <code>SGBD</code> est un logiciel de gestion de base de données, qui utilise donc SQL.
 • <code>MySQL</code> est un SGBD très utilisé, appartenant à l'entreprise Oracle. </p>
 <p><strong>Création de la base de donnée :</strong>
-<img alt="quinta exericse" src="../Create_Use.png" /></p>
+<img alt="quinta exericse" src="../Create_Use.png" />
+ <code>sql
+ mysql&gt; CREATE DATABASE quinta;</code>
+ <code>sql
+ mysql&gt; USE quinta;</code></p>
 <p><strong>Création des tables :</strong> 
 <img alt="quinta exericse" src="../create_tables.png" /></p>
+<p><code>sql
+ mysql&gt; CREATE TABLE city (
+    -&gt;     id INT AUTO_INCREMENT PRIMARY KEY,
+    -&gt;     name VARCHAR(100) NOT NULL,
+    -&gt;     lat FLOAT NOT NULL,
+    -&gt;     lon FLOAT NOT NULL
+    -&gt; );</code></p>
 <p><strong>Remplissage des tables avec des données :</strong> 
 <img alt="quinta exericse" src="../insert_people.png" />
 <img alt="quinta exericse" src="../insert_20_people.png" />
